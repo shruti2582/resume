@@ -1,0 +1,130 @@
+.section1 {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(image/bg2.jpg);
+  background-size: cover;
+
+  margin-top: 0px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.link-icon a {
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+  margin: 10px;
+  margin-top: 190px;
+  margin-left: 20px;
+  font-size: 45px;
+
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+  transition: background-position 0.5s, color 0.5s;
+}
+
+.link-icon a:nth-child(1) {
+  color: #3b5998;
+  background-image: linear-gradient(#fff 50%, #3b5998 50%);
+}
+.link-icon a:nth-child(2) {
+  color: #00acee;
+  background-image: linear-gradient(#fff 50%, #00acee 50%);
+}
+.link-icon a:nth-child(3) {
+  color: #0077b5;
+  background-image: linear-gradient(#fff 50%, #0077b5 50%);
+}
+.link-icon a:nth-child(4) {
+  color: #8a3ab9;
+  background-image: linear-gradient(#fff 50%, #8a3ab9 50%);
+}
+.link-icon a:nth-child(5) {
+  color: #000000;
+  background-image: linear-gradient(#fff 50%, #000000 50%);
+}
+
+.link-icon a:hover {
+  background-position: 0% 100%;
+  color: #fff;
+}
+
+.section1 img {
+  height: 40vh;
+  width: 15%;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 220px;
+  border-radius: 50%;
+}
+.section1 button {
+  border-radius: 30px;
+  border: 1px solid white;
+  background: transparent;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+  top: 200px;
+  margin-right: 20px;
+  margin-top: 190px;
+  color: #fff;
+  transition: background 1s, color 1s;
+}
+.section1 button:hover {
+  color: black;
+  background-color: white;
+}
+
+.section2 {
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+}
+.section2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+}
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: rgb(35, 17, 155);
+}
+.section2 h2 {
+  font-size: 60px;
+  font-family: "Century Schoolbook";
+  color: gray;
+  font-weight: lighter;
+}
+.section3 {
+  background-color: gray;
+  height: 500px;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 30px;
+  color: white;
+}
+.section3 h1 {
+  font-size: 40px;
+  font-family: "Century Schoolbook";
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 2%;
+}
+.section3 h5 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 30%;
+}
